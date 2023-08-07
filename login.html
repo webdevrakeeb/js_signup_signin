@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <title>Login to access your dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  
+<div class="login-form">
+  <div class="alert">
+    <p class="username"></p>
+  </div>
+  
+<div class="form-title">
+  <h3>KmIT Firm Student Login Form</h3>
+</div>
+  <form action="">
+    <input type="text" placeholder="User Name" id="userName">
+    
+    <input type="password" placeholder="Enter Password" id="password">
+    
+    <input id="showPass" type="checkbox" onclick="showHide()">
+    <label for="showPass">See Password</label>
+    
+    <input type="submit" value="Login">
+    <p>Don't have any account? <a href="index.html">Registration</a></p>
+  </form>
+  
+</div>
+  
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="custom.js"></script>
+</body>
+</html>

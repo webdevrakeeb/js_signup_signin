@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+  
+.registration-form {
+  border: none;
+}
+
+.registration-form form input[type=text],
+.registration-form form input[type=email],
+.registration-form form input[type=tel],
+.registration-form form input[type=password] {
+  width: 100%;
+}
+
+.registration-form form input[type=tel],
+.registration-form form #lastName,
+.registration-form form #conFirm {
+  margin-left: 0;
+}
+
+.registration-form form input[type=submit]{
+  margin-top: 40px;
+}
+
+/*login page responsive design*/
+.login-form {
+  border: none;
+}
+
+.login-form form input[type=text],
+.login-form form input[type=password] {
+  width: 100%;
+}
+
+.login-form form input[type=password] {
+  margin-left: 0;
+}
+
+
+
+
+
+
+}

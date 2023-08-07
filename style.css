@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.registration-form {
+  max-width: 700px;
+  border: 1px solid #ddd;
+  margin: 30px auto;
+  padding: 30px 30px 60px 30px;
+}
+
+.form-title h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.registration-form form input[type=text],
+.registration-form form input[type=email],
+.registration-form form input[type=tel],
+.registration-form form input[type=password] {
+  width: 45%;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+}
+
+.registration-form form input[type=tel],
+.registration-form form #lastName,
+.registration-form form #conFirm {
+  margin-left: 9%;
+}
+
+.registration-form form input:focus {
+  outline: none;
+}
+
+.registration-form form input[type=submit]{
+  display: block;
+  margin: 40px auto;
+  margin-bottom: 0;
+  padding: 12px 40px;
+  border: none;
+  background: orange;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.registration-form form p {
+  text-align: center;
+}
+
+.registration-form form p a {
+  text-decoration: none;
+}
+
+.alert span,
+.alert p {
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+.warning {
+  background: orangered;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.success {
+  background: green;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+
+/*login page Style here */
+.login-form {
+  max-width: 700px;
+  border: 1px solid #ddd;
+  margin: 30px auto;
+  padding: 30px 30px 60px 30px;
+}
+.login-form form input[type=text],
+.login-form form input[type=password] {
+  width: 45%;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+}
+
+.login-form form input[type=text]:focus,
+.login-form form input[type=password]:focus{
+  outline: none;
+}
+
+.login-form form input[type=password] {
+  margin-left: 9%;
+}
+
+.login-form input[type=submit] {
+  display: block;
+  margin: 40px auto;
+  margin-bottom: 0;
+  padding: 12px 40px;
+  border: none;
+  background: orange;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-form form p {
+  text-align: center;
+}
+
+.login-form form p a {
+  text-decoration: none;
+}
